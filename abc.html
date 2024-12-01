@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himachal Travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/navbar-bg.jpg" alt="Mountains" class="navbar-bg">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Rate Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1>Explore Himachal Pradesh</h1>
+        <div class="destinations">
+            <div class="card" onclick="redirect('shimla.html')">
+                <img src="images/shimla.jpg" alt="Shimla">
+                <h3>Shimla</h3>
+            </div>
+            <div class="card" onclick="redirect('manali.html')">
+                <img src="images/manali.jpg" alt="Manali">
+                <h3>Manali</h3>
+            </div>
+            <div class="card" onclick="redirect('solan.html')">
+                <img src="images/solan.jpg" alt="Solan">
+                <h3>Solan</h3>
+            </div>
+            <div class="card" onclick="redirect('dalhousie.html')">
+                <img src="images/dalhousie.jpg" alt="Dalhousie">
+                <h3>Dalhousie</h3>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
